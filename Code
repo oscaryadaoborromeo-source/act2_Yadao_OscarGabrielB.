@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+
+    <?php
+
+
+
+$me = array(
+
+    "name" => "Oscar Gabriel Yadao",
+    "age" => "19",
+    "address" => "Malolos Bulacan",
+    "hobbies" => "Drawing",
+    "dream_job" => "developer",
+    "course" => "Associate in Computer Technology",
+    "school" => "Bulacan Polytechnic College"
+);
+
+echo "<h1>My Personal Information\n</h1>";
+echo "<br>";
+echo "<h3>";
+echo "Name:" . $me["name"] ."\n";
+echo "<br>";
+echo "Age: " . $me["age"] . "\n";
+echo "<br>";
+echo "Address: " . $me["address"] . "\n";
+echo "<br>";
+echo "Hobbies: " . $me["hobbies"] . "\n";
+echo "<br>";
+echo "Dream Job: " . $me["dream_job"] . "\n";
+echo "<br>";
+echo "Course: " . $me["course"] . "\n";
+echo "<br>";
+echo "School: " . $me["school"] . "\n\n";
+echo "</h3>";
+echo "<h2>";
+print "I am " . $me["name"] . ", a " . $me["course"] . " student of " . $me["school"] . ".";
+echo "</h2>";
+?>
+</body>
+</html>
